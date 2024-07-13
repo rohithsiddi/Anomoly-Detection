@@ -28,6 +28,8 @@ To enhance the model's ability to generalize from the dataset,data augmentation 
 Both models were rigorously evaluated:
 - The **CNN model** achieved an accuracy of approximately 62%.
 - The **Convolutional Autoencoder** showed superior performance with an accuracy of 77.10%.
+- ![Training and Validation Loss Curve](Train&Val_Loss.png)
+- ![Reconstruction Error Histogram](Reconstruction_Error.png)
 
 ## Results
 The project demonstrates that the Convolutional Autoencoder is more effective for anomaly detection in this context, providing a higher accuracy and better handling of the dataset's complexities.
@@ -36,4 +38,4 @@ The project demonstrates that the Convolutional Autoencoder is more effective fo
 This comparative study highlights the potential of using advanced neural networks for anomaly detection in industrial applications. Future work could explore further enhancements in model architecture and training techniques to improve accuracy and efficiency.
 
 ## References
-*This project is based on insights and methodologies discussed in various academic papers related to anomaly detection. Specific references to these papers can be found in the documentation.*
+*This project is based on insights and methodologies discussed in various academic papers related to anomaly detection. Specific references to these papers can be found in the report.*
